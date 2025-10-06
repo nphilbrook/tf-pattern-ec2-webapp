@@ -1,6 +1,6 @@
 module "ec2" {
   source         = "__TF_HOSTNAME__/__TF_CLOUD_ORGANIZATION__/ec2/aws"
-  version        = "0.1.0"
+  version        = "2.0.0"
   app_name       = "__APP_NAME__"
   packer_channel = var.packer_channel
   region         = var.region
